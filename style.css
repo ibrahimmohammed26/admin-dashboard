@@ -1,0 +1,46 @@
+.container {
+  display: inline-grid;
+  grid-template: 100px 100px 100px  100px 100px / 100px 100px 100px 100px 100px;
+  background-color: lightblue; 
+}
+
+.room {
+  border: 0.5px solid;
+  font-size: 50%;
+  text-align: center;
+}
+
+.project {
+  background-color: white;
+  border: 0.5px solid;
+}
+
+#header {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+#sidebar {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+
+
+#main {
+  grid-column-start: 2;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+
+#project {
+  grid-column-start: 2.1;
+  grid-column-end: 2.4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
